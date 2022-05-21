@@ -1,0 +1,14 @@
+1. mongo
+2. use assignment
+3. db.createCollection("users")
+4. db.users.insert({"first_name":"Zeeshan","last_name":"Nasir","email":"zeeshan.nebula@gmail.com","gender":"Male","ip_address":"123.2.13.0","age":"25"})
+5. db.users.insert({"first_name":"Sham","last_name":"Singh","email":"sham@gmail.com","gender":"Male","ip_address":"120.2.13.0","age":"21"})
+6. db.users.insertMany([{"first_name":"Sham","last_name":"Singh","email":"sham@gmail.com","gender":"Male","ip_address":"120.2.13.0","age":"21"},{"first_name":"Sham","last_name":"Singh","email":"sham@gmail.com","gender":"Male","ip_address":"120.2.13.0","age":"21"},{"first_name":"Sham","last_name":"Singh","email":"sham@gmail.com","gender":"Male","ip_address":"120.2.13.0","age":"21"},{"first_name":"Sham","last_name":"Singh","email":"sham@gmail.com","gender":"Male","ip_address":"120.2.13.0","age":"21"},{"first_name":"Sham","last_name":"Singh","email":"sham@gmail.com","gender":"Male","ip_address":"120.2.13.0","age":"21"},{"first_name":"Sham","last_name":"Singh","email":"sham@gmail.com","gender":"Male","ip_address":"120.2.13.0","age":"21"},{"first_name":"Sham","last_name":"Singh","email":"sham@gmail.com","gender":"Male","ip_address":"120.2.13.0","age":"21"},{"first_name":"Sham","last_name":"Singh","email":"sham@gmail.com","gender":"Male","ip_address":"120.2.13.0","age":"21"},{"first_name":"Sham","last_name":"Singh","email":"sham@gmail.com","gender":"Male","ip_address":"120.2.13.0","age":"21"}])
+7. db.users.find({}).pretty()
+8. db.users.findOne({"first_name":"Zeeshan"})
+9. db.users.update({"_id": ObjectId("62261bd47d315ea25239186a")},{$set: {"last_name":"Gupta"}})
+10. db.users.update({"_id": ObjectId("62261bd47d315ea252391866")},{$set: {"first_name":"Shruti"},{"last_name":"Sharma"},{"email":"shruti@gmail.com"},{"gender":"Female"},{"ip_address":"113.1.13.0"},{"age":"24"}})
+11. db.users.updateMany({"last_name":"Singh"},{$set: {"from":"Punjab"}})
+12. db.users.remove({"_id": ObjectId("62261b797d315ea252391862")})
+13. db.users.remove({"first_name": "Sham"}, 1)
+

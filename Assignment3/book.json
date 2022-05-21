@@ -1,0 +1,18 @@
+{
+    "ToKillAMockingbird": {
+        "name": "To Kill A Mockingbird",
+        "author": "Harper Lee"
+    },
+    "PerksOfBeingAWallflower": {
+        "name": "Perks Of Being A Wallflower",
+        "author": "Stephen Chbosky"
+    },
+    "CatcherInTheRye": {
+            "name": "Catcher In The Rye",
+            "author": "J. D. Salinger"
+    },
+    "Looking For Alaska": {
+            "name": "Looking For Alaska",
+            "author": "John Green"
+    }
+}

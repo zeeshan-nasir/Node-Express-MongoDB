@@ -1,0 +1,26 @@
+{
+  "name": "assignment9",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeeshan-nasir/Assignment9.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zeeshan-nasir/Assignment9/issues"
+  },
+  "homepage": "https://github.com/zeeshan-nasir/Assignment9#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "express-validator": "^6.14.0",
+    "mongoose": "^6.2.6"
+  }
+}

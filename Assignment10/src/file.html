@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            width: 60%;
+            margin: auto;
+            margin-top: 100px;
+            display: flex;
+            gap: 200px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        label {
+            font-size: 1.3em;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="http://localhost:4000/users" method="post" enctype="multipart/form-data">
+        <h1>User:</h1>
+        <label for="firstName">First Name:</label>
+        <input type="text" name="firstName" id="">
+        <label for="lastName">Last Name:</label>
+        <input type="text" name="lastName" id="">
+        <label for="profilePic">Select file:</label>
+        <input type="file" name="profilePic">
+        <input type="submit">
+    </form>
+    
+    <form action="http://localhost:4000/gallery" method="post" enctype="multipart/form-data">
+        <h1>Gallery: (Multiple photos)</h1>
+        <label for="userId">User Id:</label>
+        <input type="text" name="userId" id="">
+        <label for="userPictures">Select files (upto 5 max):</label>
+        <input type="file" name="userPictures" multiple>
+        <input type="submit">
+    </form>
+</body>
+
+</html>
