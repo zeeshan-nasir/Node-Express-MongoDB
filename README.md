@@ -1,2 +1,2 @@
 # Node-Express-MongoDB
-Node, Express and mongoDB classes, assignments and practice.
+Node, Express and mongoDB projects and assignments.
